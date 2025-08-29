@@ -1,0 +1,13 @@
+[package]
+edition = "2024"
+name    = "aos_up"
+version = "0.1.0"
+
+[dependencies]
+anyhow = "1.0.99"
+palc   = "0.0.1"
+# clap = { version = "4.5.46", features = ["derive"] }
+
+[[bin]]
+name = "aos"
+path = "src/main.rs"
