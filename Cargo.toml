@@ -4,7 +4,7 @@ name    = "aos_up"
 version = "0.1.0"
 
 [dependencies]
-anyhow = "1.0.99"
+anyhow = "1.0.100"
 palc   = "0.0.1"
 # clap = { version = "4.5.46", features = ["derive"] }
 
